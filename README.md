@@ -67,7 +67,7 @@ Refer below notebook to transformations and code used to mount ADLS Gen2 to Data
 ## Performing Data Analysis on the Data
 
 Create **SQL script** to Perform **Exploratory data analysis** using SQL.
-You can aslo use PowerBI to generate your analysis reports.
+You can also use PowerBI to generate your analysis reports.
  <img src="Images/synapse_analytics_report.png">
 
 Refer to the SQL scripts used for data analysis 
