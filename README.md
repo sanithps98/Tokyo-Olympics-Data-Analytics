@@ -43,8 +43,7 @@ Source(Kaggle): [2021 Olympics in Tokyo](https://www.kaggle.com/datasets/arjunpr
 <img src="Images/datafactory_pipeline.png">  
 10. After the pipeline completes its execution, navigate to your Azure Data Lake Storage Gen2. Dive into the "raw_data" folder and validate that the files, like "athletes.csv", "medals.csv", etc., are present and populated with the expected data.
 
- <img src="Images/raw_data_in_storage.png">
-
+<br/><img src="Images/raw_data_in_storage.png">
 ## Data Transformation using Azure Databricks
 1. Navigate to Azure Databricks within the Azure portal and create a workspace within the previously established resource group and launch it.
 2. Configuring Compute in Databricks
