@@ -11,7 +11,7 @@ It involves ingesting raw Olympic data, transforming it into a suitable format, 
 <img src="Images/Architecture.png">
 
 ## 📊 Dataset Used 
-The dataset for the Tokyo Olympics 2021 contains information about 11,000 athletes, 47 disciplines, and 743 teams, offering a comprehensive view of the event.
+The dataset for the Tokyo Olympics 2020 contains information about 11,000 athletes, 47 disciplines, and 743 teams, offering a comprehensive view of the event.
 
 Source(Kaggle): [2021 Olympics in Tokyo](https://www.kaggle.com/datasets/arjunprasadsarkhel/2021-olympics-in-tokyo)
 
