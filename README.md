@@ -54,7 +54,8 @@ Source(Kaggle): [2021 Olympics in Tokyo](https://www.kaggle.com/datasets/arjunpr
 7. Writing Transformed Data to ADLS Gen2.
  <img src="Images/transformed_data_tables.png">
   <img src="Images/transformed_data_contents.png">
-Refer below notebook to transformations and code used to mount ADLS Gen2 to Databricks.
+
+• Refer to the notebook below for the transformations and code used to mount ADLS Gen2 to Databricks.
 
 [Tokyo Olympics Transformation.ipynb](https://github.com/sanithps98/tokyo-olympic-azure-data-engineering-project/blob/main/Tokyo%20Olympic%20Transformation.ipynb)
 
@@ -70,5 +71,5 @@ Create **SQL script** to Perform **Exploratory data analysis** using SQL.
 You can also use PowerBI to generate your analysis reports.
  <img src="Images/synapse_analytics_report.png">
 
-Refer to the SQL scripts used for data analysis 
+• Refer to the SQL scripts used for data analysis. 
 [Tokyo Olympics SQL script.sql](https://github.com/sanithps98/tokyo-olympic-azure-data-engineering-project/blob/main/Tokyo%20Olympics%20SQL%20script.sql)
