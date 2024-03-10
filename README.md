@@ -1,7 +1,10 @@
 
 # Tokyo Olympics Data Analytics | Azure End-To-End Data Engineering Project 
 
-
+</br>
+<div align="center">
+    <img src="Images/Olympics_Logo.png" alt="LOGO">
+</div>
 
 ## 💻 Description
 The Tokyo Olympic Data Analytics Project is a comprehensive solution for analyzing and visualizing the 2021 Tokyo Olympics data. It demonstrates how to build an end-to-end data analytics pipeline on the Azure cloud platform by integrating Azure Databricks, Azure Data Factory, and other Azure resources. 
