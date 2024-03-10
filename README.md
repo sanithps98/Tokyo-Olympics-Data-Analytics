@@ -7,6 +7,7 @@
 The Tokyo Olympic Data Analytics Project is a comprehensive solution for analyzing and visualizing the 2021 Tokyo Olympics data. It demonstrates how to build an end-to-end data analytics pipeline on the Azure cloud platform by integrating Azure Databricks, Azure Data Factory, and other Azure resources. 
 
 It involves ingesting raw Olympic data, transforming it into a suitable format, performing analysis, and creating insightful visualizations. Starting with a CSV on GitHub, the data is ingested into the Azure ecosystem via Azure Data Factory. It is initially stored in Azure Data Lake Storage Gen2 and then transformed in Azure Databricks. Once again housed in ADLS Gen2, the enriched data undergoes advanced analytics in Azure Synapse. The insights are finally visualized in Azure Synapse or Power BI, offering a comprehensive dataset view.
+
 ## 🌐 Architecture 
 <img src="Images/Architecture.png">
 
@@ -14,23 +15,24 @@ It involves ingesting raw Olympic data, transforming it into a suitable format, 
 The dataset for the Tokyo Olympics 2020 contains information about 11,000 athletes, 47 disciplines, and 743 teams, offering a comprehensive view of the event.
 
 Source(Kaggle): [2021 Olympics in Tokyo](https://www.kaggle.com/datasets/arjunprasadsarkhel/2021-olympics-in-tokyo)
+</br>
 
 ## 🔨 Azure Services Used
 1. **Azure Data Factory:** For data ingestion from GitHub.
 2. **Azure Data Lake Storage Gen2**: As the primary data storage solution.
 3. **Azure Databricks:** For data transformation tasks.
 4. **Azure Synapse Analytics:** To perform in-depth data analytics.
-   
+
 ## 🔁 Workflow 
 
-## Initial Setup
+### 1) Initial Setup
 1. Create Azure Free Subscription acoount  
 2. Create a Resource Group '**tokyo-olympic-data**' to house and manage all the Azure resources associated with this project. 
 3. Within the created resource group,set up a storage account. This is specifically configured to leverage Azure Data Lake Storage(ADLS) Gen2 capabilities.
 4. Create a Container inside this storage account to hold the project's data. Two directories '**raw-data**' and '**transformed-data**' are created to store raw data and transformed data.
   <img src="Images/storage.png"> 
 
-## Data Ingestion using Azure Data Factory
+### 2) Data Ingestion using Azure Data Factory
 1. Begin by creating an Azure Data Factory workspace within the previously established resource group.
 2. After setting up the workspace, launch the Azure Data Factory Studio. 
 3. Upload the Tokyo Olympics dataset from kaggle to GitHub.
@@ -44,7 +46,8 @@ Source(Kaggle): [2021 Olympics in Tokyo](https://www.kaggle.com/datasets/arjunpr
 10. After the pipeline completes its execution, navigate to your Azure Data Lake Storage Gen2. Dive into the "raw-data" folder and validate that the files, like "athletes.csv", "medals.csv", etc., are present and populated with the expected data.
 
 <br/><img src="Images/raw_data_in_storage.png">
-## Data Transformation using Azure Databricks
+
+### 3) Data Transformation using Azure Databricks
 1. Navigate to Azure Databricks within the Azure portal and create a workspace within the previously established resource group and launch it.
 2. Configuring Compute in Databricks
 3. Create a new notebook within Databricks and rename it appropriately, reflecting its purpose or the dataset it pertains to.
@@ -59,17 +62,19 @@ Source(Kaggle): [2021 Olympics in Tokyo](https://www.kaggle.com/datasets/arjunpr
 
 [Tokyo Olympics Transformation.ipynb](https://github.com/sanithps98/tokyo-olympic-azure-data-engineering-project/blob/main/Tokyo%20Olympic%20Transformation.ipynb)
 
-## Setting Up and Using Azure Synapse Analytics
+### 4) Setting Up and Using Azure Synapse Analytics
 1. Creating a Synapse Analytics Workspace.
 2. Within Workspace navigate to the "Data" section , choose "Lake Database"  and create a Database "**Tokyo_DB**"
 3. Creating Table from Data Lake from the Transformed Data folder within your ADLS Gen2 storage.
  <img src="Images/synapse_database_creation.png">
  
-## Performing Data Analysis on the Data
+### 5) Performing Data Analysis on the Data
 
 Create **SQL script** to Perform **Exploratory data analysis** using SQL.
 You can also use PowerBI to generate your analysis reports.
- <img src="Images/synapse_analytics_report.png">
+</br>
+</br>
+<img src="Images/synapse_analytics_report.png">
 
 • Refer to the SQL scripts used for data analysis. 
 [Tokyo Olympics SQL script.sql](https://github.com/sanithps98/tokyo-olympic-azure-data-engineering-project/blob/main/Tokyo%20Olympics%20SQL%20script.sql)
