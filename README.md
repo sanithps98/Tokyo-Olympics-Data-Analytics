@@ -76,8 +76,62 @@ Source(Kaggle): [2021 Olympics in Tokyo](https://www.kaggle.com/datasets/arjunpr
 Create **SQL script** to Perform **Exploratory data analysis** using SQL.
 You can also use PowerBI to generate your analysis reports.
 </br>
+
 </br>
-<img src="Images/synapse_analytics_report.png">
+<ul>
+  <li><b>Query 1</b></li>
+</ul>
+<div align="center">
+    <img src="Output/Query1.png" alt="Query1">
+</div>
+
+</br>
+<ul>
+  <li><b>Query 2</b></li>
+</ul>
+<div align="center">
+    <img src="Output/Query2.jpg" alt="Query2">
+</div>
+
+</br>
+<ul>
+  <li><b>Query 3</b></li>
+</ul>
+<div align="center">
+    <img src="Output/Query3.png" alt="Query3">
+</div>
+
+</br>
+<ul>
+  <li><b>Query 4</b></li>
+</ul>
+<div align="center">
+    <img src="Output/Query4.png" alt="Query4">
+</div>
+
+</br>
+<ul>
+  <li><b>Query 5</b></li>
+</ul>
+<div align="center">
+    <img src="Output/Query5.png" alt="Query5">
+</div>
+
+</br>
+<ul>
+  <li><b>Query 6</b></li>
+</ul>
+<div align="center">
+    <img src="Output/Query6.png" alt="Query6">
+</div>
+
+</br>
+<ul>
+  <li><b>Query 7</b></li>
+</ul>
+<div align="center">
+    <img src="Output/Query7.png" alt="Query7">
+</div>
 
 • Refer to the SQL scripts used for data analysis. 
 [Tokyo Olympics SQL script.sql](https://github.com/sanithps98/tokyo-olympic-azure-data-engineering-project/blob/main/Tokyo%20Olympics%20SQL%20script.sql)
