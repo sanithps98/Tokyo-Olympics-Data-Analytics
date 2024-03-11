@@ -26,8 +26,6 @@ ORDER BY SUM(Total) DESC;
 ---Top 10 Countries with gold medals
 SELECT TOP(10)Team_Country,
 SUM(Gold) AS Total_Gold,
-SUM(Silver) AS Total_Silver,
-SUM(Bronze) AS Total_Bronze
 FROM medals_table
 GROUP BY Team_Country
 ORDER BY Total_Gold DESC;
